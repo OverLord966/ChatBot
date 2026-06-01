@@ -51,4 +51,12 @@ while True:
     elif mensagem == "piada":
         print("ChatBot: Porque é que o livro foi ao médico? Porque estava cheio de páginas!")
 
-    
+    elif mensagem == "onde estou":
+        print("ChatBot: Estás a falar comigo através do VS Code, acho eu 😄")
+
+    elif mensagem == "ajuda":
+        print("ChatBot: Podes perguntar: ola, tudo bem, piada, horas, ajuda, sair...")
+
+    # Resposta padrão
+    else:
+        print("ChatBot: Não percebi... tenta outra vez!")
