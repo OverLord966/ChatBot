@@ -45,4 +45,7 @@ while True:
         agora = datetime.datetime.now().strftime("%H:%M")
         print(f"ChatBot: Agora são {agora}.")
 
-   
+    elif mensagem == "quem te criou":
+        print("ChatBot: Fui criado pelo Diogo como parte do exercício do stor!")
+
+    
