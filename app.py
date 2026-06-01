@@ -48,4 +48,7 @@ while True:
     elif mensagem == "quem te criou":
         print("ChatBot: Fui criado pelo Diogo como parte do exercício do stor!")
 
+    elif mensagem == "piada":
+        print("ChatBot: Porque é que o livro foi ao médico? Porque estava cheio de páginas!")
+
     
